@@ -1,8 +1,5 @@
-import './index.css';
-
 document.getElementById('output').style.visibility = 'hidden';
-
-document.getElementById('wbd').addEventListener('input', (e) => {
+document.getElementById('wbd').addEventListener('input', function (e) {
   document.getElementById('output').style.visibility = 'visible';
   let wad = document.getElementById('wad').value;
   let wbd = document.getElementById('wbd').value;
@@ -23,7 +20,7 @@ document.getElementById('wbd').addEventListener('input', (e) => {
   ).toFixed(3);
 });
 
-document.getElementById('wad').addEventListener('input', (e) => {
+document.getElementById('wad').addEventListener('input', function (e) {
   document.getElementById('output').style.visibility = 'visible';
   document.getElementById('output').style.visibility = 'visible';
   let wad = document.getElementById('wad').value;
