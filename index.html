@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gold Purity Calculator | de arco</title>
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <h1 class="display-5 text-center mb-3">Bin Ahmad Gold Test Lab</h1>
+          <form>
+            <div class="form-group">
+              <input
+                id="wbd"
+                type="number"
+                class="form-control form-control-lg"
+                placeholder="Weight before dissolution"
+              />
+              <input
+                id="wad"
+                type="number"
+                class="form-control form-control-lg"
+                placeholder="Weight after dissolution"
+              />
+            </div>
+          </form>
+          <div id="output">
+            <div class="card card-primary mb-2">
+              <div class="card-block">
+                <h4>Sum</h4>
+                <div id="sum"></div>
+              </div>
+            </div>
+
+            <div class="card card-success mb-2">
+              <div class="card-block">
+                <h4>Karat</h4>
+                <div id="karat"></div>
+              </div>
+            </div>
+
+            <div class="card card-danger mb-2">
+              <div class="card-block">
+                <h4>Impurity</h4>
+                <div id="impurity"></div>
+              </div>
+            </div>
+
+            <div class="card card-primary mb-2">
+              <div class="card-block">
+                <h4>Impurity Per Gram</h4>
+                <div id="impurity-per-gram"></div>
+              </div>
+            </div>
+
+            <div class="card card-success mb-2">
+              <div class="card-block">
+                <h4>Impurity Per Tola</h4>
+                <div id="impurity-per-tola"></div>
+              </div>
+            </div>
+
+            <div class="card card-danger mb-2">
+              <div class="card-block">
+                <h4>Impurity Per Ratti</h4>
+                <div id="impurity-per-ratti"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
