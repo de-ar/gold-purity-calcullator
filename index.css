@@ -1,5 +1,9 @@
-body{
-  margin-top:70px;
-  background:#333;
-  color:#fff;
+body {
+  margin-top: 10px;
+  background: #333;
+  color: #fff;
+}
+
+input {
+  margin-bottom: 10px;
 }
