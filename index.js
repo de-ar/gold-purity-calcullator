@@ -25,3 +25,7 @@ const handleButtonClick = () => {
   const gp = document.getElementById('gp').value
   document.getElementById('gv').value = ((gp / 11.664) * ((sum / 1000) * wbp)).toFixed(2)
 }
+
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('/service-worker.js')
+}
